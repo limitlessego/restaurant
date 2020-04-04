@@ -1,0 +1,1 @@
+Restaurant page generated with JS uses modules for each page

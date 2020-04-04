@@ -1,0 +1,55 @@
+#content{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 74vh 10vh ;
+    grid-template-areas: 
+    "n n n"
+    "m m m"
+    "f f f";
+}
+
+
+#nav{
+    background-color: darkgreen;
+    color: blanchedalmond;
+
+    grid-area: n;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+   
+    
+}
+.menu-txt{
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+.menu-tab{
+    text-align: center;
+    display: inline-block;
+    text-size-adjust: auto;
+    
+    border: solid 1px;
+    width:10vw;
+    height: 7vh;
+
+
+
+
+}
+#main-section{
+    text-align: center;
+    grid-area: m;
+    background-image: url("img/bar_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: orange;
+}
+
+#footer{
+    grid-area: f;
+    background-color: darkgreen;
+}
